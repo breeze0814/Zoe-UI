@@ -4,8 +4,8 @@ cd dist &&
 git init &&
 git add . &&
 git commit -m "update" &&
-git branch -M master &&
-git remote add origin git@gitee.com:frankfang/gulu-ui-website-1.git &&
-git push -f -u origin master &&
+git branch -M main &&
+git remote add origin git@github.com:breeze0814/wheel-website.git &&
+git push -f -u origin main &&
 cd -
-echo https://frankfang.gitee.io/gulu-ui-website-1/
+echo https://breeze0814.github.io/wheel-website/
