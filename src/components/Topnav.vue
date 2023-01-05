@@ -11,7 +11,7 @@
     </li>
   </ul>
   <svg v-if="toggleMenuButtonVisible" class="toggleAside" @click="toggleMenu">
-    <use xlink:href="#icon-menu"></use>
+    <use xlink:href="#icon-caidan"></use>
   </svg>
 </div>
 </template>
@@ -67,6 +67,7 @@ $color: #007974;
 
   >.menu {
     display: flex;
+    color: white;
     white-space: nowrap;
     flex-wrap: nowrap;
 
@@ -83,7 +84,6 @@ $color: #007974;
     top: 50%;
     transform: translateY(-50%);
     display: none;
-    background: fade-out(black, 0.9);
   }
 
   @media (max-width: 500px) {
